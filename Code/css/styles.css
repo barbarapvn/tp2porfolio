@@ -1,0 +1,332 @@
+body {
+	font-family: 'Roboto', sans-serif;
+	margin: 0;
+}
+
+ul {
+	padding: 0;
+}
+
+section, header, footer {
+	padding: 50px;
+}
+
+.main-container {
+	background-color: #08AEEA;
+	background-image: linear-gradient(to top, #08AEEA 0%, #2AF598 100%);
+}
+.main {
+/*	background-color: #08AEEA;
+	background-image: linear-gradient(to top, #08AEEA 0%, #2AF598 100%);*/
+	height: 700px;
+	width: 100%;
+	color: beige;
+	/*usando vh y vw, si tengo varias secciones en un one page donde cambian los colores. ¿eso afecta? igual no lo probé*/
+}
+
+.navigator {
+	display: flex;
+	justify-content: space-between;
+	margin: 0;
+/*	font-size: 15px;
+	font-weight: 300;*/
+/*	margin: 0 50px;*/
+}
+
+.name-main h3 {
+	font-size: 20px;
+	font-weight: 300;
+	margin: 0;
+}
+
+.name-main h3 strong {
+	font-weight: 700;
+}
+
+.email-main h4 {
+	margin: 0;
+	font-weight: 300;
+}
+	
+.box-main {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	height: 600px;
+/*	margin: 0 50px;*/
+}
+
+
+.box-main h1 {
+	text-transform: uppercase;
+	padding-bottom: 20px;
+	font-size: 60px;
+	font-weight: 500;
+	margin: 0;
+}
+
+.box-main h1:after {
+	content: ' ';
+	display: block;
+	width: 50px;
+	border: 2px solid beige;
+	margin: 10px 0;
+}
+
+.box-main-subtitle {
+	margin: 0;
+	font-size: 25px;
+	font-weight: 300;
+}
+
+.about-me {
+	color: #231F20;
+	display: flex;
+	justify-content: space-between;
+	height: 600px;
+}
+
+.title-black {
+	/*background-color: red;*/
+	width: 400px;
+	height: 100px;
+	text-transform: uppercase;
+}
+
+.title-black h2 {
+	font-size: 30px;
+	font-weight: 500;
+}
+
+.title-black h2:after {
+	content: ' ';
+	display: block;
+	width: 50px;
+	border: 2px solid #231F20;
+	margin: 10px 0;
+}
+
+.textarticle-black {
+	/*background-color: blue;*/
+	width: 600px;
+	height: 100px;
+	margin-right: 150px;
+}
+
+.textarticle-black h3 {
+	font-weight: 600;
+}
+
+.textarticle-black p {
+	font-weight: 300;
+}
+
+.container-experience {
+	color: beige;
+	display: flex;
+	justify-content: space-between;
+}
+
+.experience-main {
+	width: 400px;
+}
+
+.experience-main h3 {
+	font-size: 30px;
+	font-weight: 500;
+	text-transform: uppercase;
+}
+
+.experience-main h3:after {
+	content: ' ';
+	display: block;
+	width: 50px;
+	border: 2px solid beige;
+	margin: 10px 0;
+}
+
+.experience-main p {
+	font-weight: 300;
+}
+
+.experience-listed {
+	margin-right: 150px;
+}
+
+.work {
+	border: 2px solid beige;
+	border-radius: 30px;
+	list-style: none;
+	padding: 0 50px;
+	width: 400px;
+	margin: 20px 0;
+}
+
+.font-item h2 {
+	font-size: 25px;
+}
+
+.font-item h5 {
+	font-size: 15px;
+	font-weight: 300;
+}
+
+.font-item h3 {
+	font-size: 20px;
+	font-weight: 400;
+	font-style: italic;
+}
+
+.main-education {
+	padding: 50px;
+	color: #231F20;
+	display: flex;
+	justify-content: space-between;
+	height: 700px;	
+}
+
+.education-description {
+	width: 400px;
+}
+
+.education-description h3 {
+	font-size: 30px;
+	font-weight: 500;
+	text-transform: uppercase;
+}
+
+.education-description h3:after {
+	content: ' ';
+	display: block;
+	width: 50px;
+	border: 2px solid #231F20;
+	margin: 10px 0;
+}
+
+.education-description p {
+	font-weight: 300;
+}
+
+.education-listed {
+	margin-right: 150px;
+}
+
+.edu {
+	border: 2px solid #231F20;
+	border-radius: 30px;
+	list-style: none;
+	padding: 0 50px;
+	width: 400px;
+	margin: 20px 0;
+}
+
+.skills-main {
+	color: beige;
+	display: flex;
+	justify-content: space-between;
+	height: 550	px;
+}
+
+.skills-main h2 {
+	font-size: 30px;
+	font-weight: 500;
+	text-transform: uppercase;
+}
+
+.skills-main h2:after {
+	content: ' ';
+	display: block;
+	width: 50px;
+	border: 2px solid beige;
+	margin: 10px 0;
+}
+
+.skills-title {
+	width: 400px;
+}
+
+.skill-list {
+	margin-right: 200px;
+}
+
+.skill-item {
+	list-style: none;
+	font-size: 25px;
+	width: 450px;
+}
+
+.w3-light-grey {
+	margin-bottom: 50px;
+}
+
+.item-desc {
+	margin-bottom: 10px;
+}
+
+.main-portfolio {
+	display: flex;
+	justify-content: space-between;
+}
+
+.portfolio-art {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	margin-right: 100px;
+}
+
+.port-container {
+	padding: 12px;
+	border: 2px solid #231F20;
+	border-radius: 25px;
+	margin-bottom: 20px;
+}
+
+.footer-title {
+	font-size: 30px;
+	font-weight: 500;
+	text-transform: uppercase;
+	color: beige;
+}
+
+.footer-title:after {
+	content: ' ';
+	display: block;
+	width: 50px;
+	border: 2px solid beige;
+	margin: 10px 0;
+}
+
+.footer-social {
+	margin-bottom: 20px;
+}
+
+.footer-social img {
+	width: 50px;
+	margin: 0 5px;
+}
+
+input {
+    width: 200px;
+    padding: 5px 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    background-color: #D9D9D9;
+}
+
+textarea {
+	background-color: #D9D9D9;
+}
+
+button {
+	border-radius: 10px;
+	color: beige;
+	background-color: #34BCE3;
+	padding: 10px;
+}
+
+.position-footer {
+	position: absolute;
+	right: 50px;
+	color: beige;
+}
